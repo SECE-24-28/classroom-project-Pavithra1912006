@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const RectangleBoxStyle = styled.div`
   background: #ffffff;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
 
   display: flex;
@@ -44,7 +44,7 @@ export const RectangleBoxStyle = styled.div`
 
   .aptitude p {
     font-size: 18px;
-    color: #292929;
+    color: #000000;
     line-height: 1.8;
     margin-top: 20px;
     max-width: 950px;
@@ -68,7 +68,7 @@ export const RectangleBoxStyle = styled.div`
 
   .symbol p {
     font-size: 20px;
-    color: #2d2d2d;
+    color: #000000;
     line-height: 1.8;
   }
 
@@ -114,7 +114,7 @@ export const RectangleBoxStyle = styled.div`
   .child_one p,
   .child_two p {
     font-size: 18px;
-    color: #222;
+    color: #000000;
     line-height: 1.7;
     margin-top: 10px;
   }
@@ -163,51 +163,48 @@ export const RectangleBoxStyle = styled.div`
       font-size: 36px;
     }
   }
-    .btn-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  gap: 25px;     /* <<< GAP BETWEEN BUTTONS */
-}
+  .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 25px; /* <<< GAP BETWEEN BUTTONS */
+  }
 
-.btn {
-  padding: 12px 28px;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-}
+  .btn {
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
 
-.btn-grey {
-  background: #eaeaea;
-  color: #000;
-}
+  .btn-grey {
+    background: #eaeaea;
+    color: #000;
+  }
 
-.btn-red {
-  background: #ff2f4a;
-  color: #fff;
-}
+  .btn-red {
+    background: #ff2f4a;
+    color: #fff;
+  }
   .Trust {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;       /* spacing between boxes */
-  margin: 50px 0;
-  text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* spacing between boxes */
+    margin: 50px 0;
+    text-align: center;
+  }
 
-.Trust div {
-  background: #fff;
-  padding: 20px 30px;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  font-size: 22px;
-  font-weight: 700;
-  color: #100d0dff;
-}
-
-
-
+  .Trust div {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-size: 22px;
+    font-weight: 700;
+    color: #100d0dff;
+  }
 `;
