@@ -26,20 +26,27 @@ import OurPromisesComponent from "./our-promises/our-promises";
 import TrustedbyComponent from "./trusted-by/trusted-by-component";
 //import College from "./college/college-compoent.jx";
 import College from "./college/college-component.jsx";
+import NotFound from "./NotFound";
+import { Routes, Route } from 'react-router-dom';
+// import UsestateformComponent from "./usestate/use-state-component.jsx";   
+import Lms from "./usestate/use-state-component";
 function App() {
   return (
-    <>
-      <RectangleBox />
-      <Mycomponent/>
-     <OurPromisesComponent />
-       <ContactSection />
-        <College/>
-        {/* <FlexBoxComponent /> */}
- <TrustedbyComponent />
-         {/* <FlexWrapComponent /> */}
-     
-    
-    </>
+    // <Routes>
+    //   <Route path="/" element={<RectangleBox />}/>
+    //   <Route path="/galance" element={<Mycomponent/>}/>
+    //   <Route path="/trusted-by" element={<TrustedbyComponent />}/>
+    //   <Route path="/our-promises" element={<OurPromisesComponent />}/>
+    //   <Route path="/contact" element={<ContactSection />}/>
+    //   <Route path="/college" element={<College/>}/>
+    //   <Route path="*" element={<NotFound />}/>
+    // </Routes>
+    //  <div>
+    //   <UsestateformComponent />
+    // </div>
+    <div>
+      <Lms/>
+    </div>
   );
 }
 
