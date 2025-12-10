@@ -30,6 +30,8 @@ import NotFound from "./NotFound";
 import { Routes, Route } from 'react-router-dom';
 // import UsestateformComponent from "./usestate/use-state-component.jsx";   
 import Lms from "./usestate/use-state-component";
+import FetchApiComponent from "./fetch-api/fetch-api-component";
+import UseEffectPracticeTwo from "./use-effect-practice/use-effect-practice-2";
 function App() {
   return (
     // <Routes>
@@ -43,12 +45,19 @@ function App() {
     // </Routes>
     //  <div>
     //   <UsestateformComponent />
+
     // </div>
     <div>
       <Lms/>
     </div>
+    // <Routes>
+    //   <Route path="/api-fetch" element={<FetchApiComponent />} />
+    //   <Route path="/use-effect-practice-2" element={<UseEffectPracticeTwo />} />
+    // </Routes>
+    
+       
   );
-}
+} 
 
 export default App;
 
