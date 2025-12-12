@@ -61,7 +61,6 @@
 
 // export default App;
 
-
 import React from "react";
 import RectangleBox from "./rectangle-box/rectangle-box-component";
 import Mycomponent from "./Galance/galance-component";
@@ -72,8 +71,12 @@ import College from "./college/college-component.jsx";
 import NotFound from "./NotFound";
 import FetchApiComponent from "./fetch-api/fetch-api-component";
 import UseEffectPracticeTwo from "./use-effect-practice/use-effect-practice-2";
+import SignupFormComponent from "./signup-form-api/signup-form-component";
 import { Routes, Route } from "react-router-dom";
-
+import UseStateComponent  from "./usestate-1st/use-state-component.jsx"
+import UserFetchViaEmail from "./user-fetch-via-email/user-fetch-via-email";
+import UsestateformComponent  from "./usestate/use-state-component.jsx";
+import AdditionOperationComponent   from "./addition-operation-in-state/addition-operation-component.jsx";
 function App() {
   return (
     <Routes>
@@ -84,10 +87,15 @@ function App() {
       <Route path="/our-promises" element={<OurPromisesComponent />} />
       <Route path="/contact" element={<ContactSection />} />
       <Route path="/college" element={<College />} />
-
+<Route path="/use-state-form" element={<UsestateformComponent />} />
       {/* Practice pages */}
       <Route path="/api-fetch" element={<FetchApiComponent />} />
       <Route path="/use-effect-practice-2" element={<UseEffectPracticeTwo />} />
+<Route path="/use-state" element={<UseStateComponent />} />
+      {/* Signup Form */}
+      <Route path="/signup-form" element={<SignupFormComponent />} />
+<Route path="/addition-operation" element={<AdditionOperationComponent />} />
+       <Route path="/user-fetch-path" element={<UserFetchViaEmail />} />
 
       {/* 404 Page */}
       <Route path="*" element={<NotFound />} />
